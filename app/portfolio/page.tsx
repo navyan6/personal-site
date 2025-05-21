@@ -3,7 +3,8 @@ export default function Portfolio() {
     <div className="text-center">
       <h1 className="text-4xl font-bold text-white">My Projects</h1>
       <p className="text-lg text-white mt-4">
-        Here are some of the projects I’ve worked on.
+        currently interested in machine learning for materials science and sustainability. 
+        previously worked on AI-based solutions for various diseases in an effort to make healthcare more equitable. check out my work below!
       </p>
     </div>
   );
