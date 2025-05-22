@@ -9,23 +9,6 @@ export default function Home() {
         i like to think about, and write about, specific problems. come along with
         me as i learn about the world and write about the anthropocene!
       </p>
-      <div className="mt-16">
-        <svg
-          className="w-full max-w-4xl mx-auto animate-draw"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 800 200"
-          fill="none"
-          stroke="white"
-          strokeWidth="2"
-        >
-          {/* Replace this path with an actual Atlanta skyline SVG path */}
-          <path
-            d="M10 150 L50 50 L90 150 L130 100 L170 150 L210 50 L250 150"
-            strokeDasharray="1000"
-            strokeDashoffset="1000"
-          />
-        </svg>
-      </div>
 
       {/* Yellow Jackets Animation */}
       <div className="absolute bottom-0 left-0 w-full h-40 overflow-hidden">
