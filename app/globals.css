@@ -24,3 +24,54 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-draw path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: draw 3s linear forwards;
+}
+
+@keyframes fly1 {
+  0% {
+    transform: translate(50px, 150px);
+  }
+  100% {
+    transform: translate(400px, 100px);
+  }
+}
+
+@keyframes fly2 {
+  0% {
+    transform: translate(100px, 180px);
+  }
+  100% {
+    transform: translate(500px, 150px);
+  }
+}
+
+@keyframes fly3 {
+  0% {
+    transform: translate(150px, 200px);
+  }
+  100% {
+    transform: translate(600px, 200px);
+  }
+}
+
+.animate-fly1 {
+  animation: fly1 5s linear infinite;
+}
+
+.animate-fly2 {
+  animation: fly2 6s linear infinite;
+}
+
+.animate-fly3 {
+  animation: fly3 7s linear infinite;
+}
