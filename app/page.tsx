@@ -7,12 +7,14 @@ export default function Home() {
         <h1 className="text-6xl font-extrabold text-white mt-8">navya nori</h1>
         <p className="text-xl text-white mt-4">
           atlanta // georgia tech <br />
-          im a cs student at georgia tech interested in machine learning, sustainable AI, reading, & running.  come along with
-          me as i learn about the world and write about the anthropocene! <br />
-          <span className="text-lg text-gray-300">
-            "those who can imagine anything can create the impossible" - alan turing
-          </span>
+          i'm a cs student at georgia tech interested in machine learning, sustainable AI, reading, & running. <br />
+          come along with me as i learn about the world and write about the anthropocene!
         </p>
+      </div>
+
+      {/* Alan Turing Quote */}
+      <div className="text-lg text-gray-300 mt-6 animate-fill-text">
+        "those who can imagine anything can create the impossible" - alan turing
       </div>
     </div>
   );
