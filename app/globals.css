@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 :root {
-  --background: #f9f9f9;
-  --foreground: #171717;
-}p
+  --background: #ffffff; /* White background for light mode */
+  --foreground: #000000; /* Black text for light mode */
+}
 
 @theme inline {
   --color-background: var(--background);
@@ -14,8 +14,8 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #000000;
-    --foreground: #ededed;
+    --background: #000000; /* Black background for dark mode */
+    --foreground: #ededed; /* Light text for dark mode */
   }
 }
 
@@ -25,41 +25,37 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-@keyframes fly1 {
+/* Spinning Globe Animation */
+@keyframes spin {
   0% {
-    transform: translate(50px, 150px);
+    transform: rotate(0deg);
   }
   100% {
-    transform: translate(400px, 100px);
+    transform: rotate(360deg);
   }
 }
 
-@keyframes fly2 {
-  0% {
-    transform: translate(100px, 180px);
+.animate-spin-globe {
+  animation: spin 10s linear infinite;
+  background: radial-gradient(circle, #0077be 50%, #ffffff 50%);
+  background-size: 200% 200%;
+  background-position: center;
+}
+
+/* Quote Fill Animation */
+@keyframes fill-text {
+  from {
+    width: 0;
   }
-  100% {
-    transform: translate(500px, 150px);
+  to {
+    width: 100%;
   }
 }
 
-@keyframes fly3 {
-  0% {
-    transform: translate(150px, 200px);
-  }
-  100% {
-    transform: translate(600px, 200px);
-  }
-}
-
-.animate-fly1 {
-  animation: fly1 5s linear infinite;
-}
-
-.animate-fly2 {
-  animation: fly2 6s linear infinite;
-}
-
-.animate-fly3 {
-  animation: fly3 7s linear infinite;
+.animate-fill-text {
+  animation: fill-text 4s ease-out forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid white; /* Optional typing effect */
 }
