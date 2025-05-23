@@ -10,7 +10,7 @@ export default function Blog() {
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">climate doom & industrial revolutions</h2>
         <p className="text-sm text-gray-400">May 23, 2025</p>
-        <div className="mt-4 text-white">
+        <div className="mt-4 text-white space-y-6">
           <p>
             i spend more time than i should thinking. i suppose i enjoy (1) ruminating over information i already know, as well as (2) consuming as much media as i possibly can.
             in my journey of pursuing (2), i came across john green's podcast The Anthropocene Reviewed, where he evaluates human-centered contributions to the planet with painful honesty. one segment in particular which has led to at least 10 (?) spinoff conversations, was "humanity's temporal range." modern humans have spent less time on earth (250,000 years) than any other species. yet, we have caused ecological catastrophe and the ending of other species, which saddens me deeply. i spent a fair bit of time mourning this definite loss, but later grew to realize that this problem is one that we both exacerbate and have the greatest capacity to repair, which intrigues me.

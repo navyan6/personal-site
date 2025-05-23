@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       {/* Alan Turing Quote */}
-      <div className="text-white text-2xl font-semibold mb-8">
+      <div className="text-white text-lg mt-4 mb-8">
         <p className="overflow-hidden whitespace-nowrap w-full inline-block">
           <span className="inline-block animate-fill-text-slow">
             "those who can imagine anything, can create the impossible"
