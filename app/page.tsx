@@ -8,18 +8,11 @@ export default function Home() {
         <p className="text-xl text-white mt-4">
           atlanta // georgia tech <br />
           i like to think about, and write about, specific problems. come along with
-          me as i learn about the world and write about the anthropocene!
-        </p>
-      </div>
-
-      {/* Alan Turing Quote */}
-      <div className="text-white text-lg mt-4 mb-8">
-        <p className="overflow-hidden whitespace-nowrap w-full inline-block">
-          <span className="inline-block animate-fill-text-slow">
-            "those who can imagine anything, can create the impossible"
+          me as i learn about the world and write about the anthropocene! <br />
+          <span className="text-lg text-gray-300">
+            "those who can imagine anything, can create the impossible" - alan turing
           </span>
         </p>
-        <p className="text-sm text-gray-400 mt-2">- alan turing</p>
       </div>
     </div>
   );
