@@ -13,30 +13,6 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Spinning Globe Animation */
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-.animate-spin-globe {
-  animation: spin 10s linear infinite;
-}
-
-/* Quote Fill Animation */
-@keyframes fill-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 .animate-fill-text {
   animation: fill-text 4s ease-out forwards;
   white-space: nowrap;
@@ -61,4 +37,20 @@ body {
   overflow: hidden;
   display: inline-block;
   border-right: 2px solid white; /* Optional typing effect */
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.transform-style-preserve-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
 }
