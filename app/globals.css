@@ -1,22 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff; /* White background for light mode */
-  --foreground: #000000; /* Black text for light mode */
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --background: #000000; /* Black background */
+  --foreground: #ffffff; /* White text */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #000000; /* Black background for dark mode */
-    --foreground: #ededed; /* Light text for dark mode */
-  }
 }
 
 body {
@@ -37,9 +25,6 @@ body {
 
 .animate-spin-globe {
   animation: spin 10s linear infinite;
-  background: radial-gradient(circle, #0077be 50%, #ffffff 50%);
-  background-size: 200% 200%;
-  background-position: center;
 }
 
 /* Quote Fill Animation */
@@ -54,6 +39,24 @@ body {
 
 .animate-fill-text {
   animation: fill-text 4s ease-out forwards;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 2px solid white; /* Optional typing effect */
+}
+
+/* Slower Quote Fill Animation */
+@keyframes fill-text-slow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animate-fill-text-slow {
+  animation: fill-text-slow 8s ease-out forwards; /* Slower animation (8 seconds) */
   white-space: nowrap;
   overflow: hidden;
   display: inline-block;
