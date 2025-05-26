@@ -6,6 +6,44 @@ export default function Blog() {
         this is more or less a stream of consciousness as i unpack my ideas. feel free to read, agree, disagree, or reach out -- i enjoy productive conversations.
       </p>
 
+      {/* New Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">overview of rape crisis in india + indian-american action?</h2>
+        <p className="text-sm text-gray-400">May 25, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            i caved into the propaganda and bought zarna garg's memoir, <em>this american woman</em> (i ran to amazon). after experiencing quite an emotional range, finishing the book in one sitting, and leaving a 5/5 <a href="https://www.goodreads.com/review/show/7596945412?book_show_action=false" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">goodreads</a> review, i went down a rabbit hole about one of the more difficult topics zarna touches on -- violence against women.
+          </p>
+          <p>
+            one line stuck with me in particular.
+          </p>
+          <p className="italic">
+            "in india, even the youngest girls were taught exactly what rape was and to fear it"
+          </p>
+          <p>
+            i put the book down. as an indian-american girl, i subscribed to the mentality towards assault taught in american schools: not mentioned in elementary school (for the sake of peace of mind), and warned about in health class later on. i don't want to downplay the magnitude of this problem in america. violence against women happens everywhere; here, i moreso want to (1) discuss its severity and stigma in india and (2) clarify what i believe to be the role of the indian americans (such as yours truly) regarding this crisis.
+          </p>
+          <p>
+            however much media attention this issue has gained (largely through landmark cases like <a href="https://www.bbc.com/news/world-asia-india-51969961" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">2012 nirbhaya</a>, <a href="https://www.npr.org/sections/goats-and-soda/2024/08/26/g-s1-18366/rape-murder-doctor-india-sexual-violence-protests" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">2024 doctor's protests</a> in kolkata, etc), it remains a silent epidemic. there is rampant underreporting for a number of reasons -- difficulty gaining justice in corrupt police systems, social stigma, economic/religious disadvantages, etc. not to mention that a large fraction of assault cases are not eligible to be reported, given that indian gov has <a href="https://www.bbc.com/news/articles/c80r38yeempo" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">not criminalized marital rape</a>.
+          </p>
+          <p>
+            reading about and understanding the complexities of this issue was eye-opening, and i encourage anyone reading this to <a href="https://www.cnn.com/interactive/asequals/india-rape-crisis-justice-failures-as-equals-intl-cmd/" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">do the same</a>.
+          </p>
+          <p>
+            after much reflection, i came to observe the following: (1) the indian diaspora in the united states has done well, reaching high median household incomes and around 40% earning graduate degrees (general heuristics, not insinuating that these are by any means good indicators of success), (2) many indians have reached prominent positions in large corporations & u.s. gov, leading to a potential for significant influence.
+          </p>
+          <p>
+            aforementioned success results in responsibility. american corporations do business in india & can pressure indian gov to enact policies ending sexual violence. 5.2mil indian americans vs 1.3bil indians may seem steep, but america is a world power. as students, we should learn & educate. i believe that is the most powerful action we can take at this stage of our lives. whether its reading more news, posting on social media, starting difficult conversations, whatever. be mindful that as indian-americans, we are lucky to not be subject to the same threat of violence that we just as easily could have been, had we been born into different circumstances.
+          </p>
+          <p>
+            india is said to be the largest democracy in the world, but half their population is not truly free.
+          </p>
+          <p>
+            thanks for lifting the veil over my eyes, zarna.
+          </p>
+        </div>
+      </div>
+
       {/* First Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">climate doom & industrial revolutions</h2>
