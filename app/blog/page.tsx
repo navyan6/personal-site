@@ -6,10 +6,54 @@ export default function Blog() {
         this is more or less a stream of consciousness as i unpack my ideas. feel free to read, agree, disagree, or reach out -- i enjoy productive conversations.
       </p>
 
-      {/* New Blog Post */}
+      {/* Third Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
-        <h2 className="text-2xl font-bold text-white">overview of rape crisis in india + indian-american action?</h2>
-        <p className="text-sm text-gray-400">May 25, 2025</p>
+        <h2 className="text-2xl font-bold text-white">what we can learn from the manhattan project</h2>
+        <p className="text-sm text-gray-400">June 4, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            "now i am become death, the destroyer of worlds" - from the bhagavad gita, quoted by oppenheimer after the first ever deployment of the atomic bomb.
+          </p>
+          <p>
+            in 1945, the culmination of the manhattan project resulted in approximately a quarter million lives lost. that number is difficult to comprehend, but what is even more fundamentally inscrutable about this tragedy is the question of its necessity.
+          </p>
+          <p>
+            most historical retellings and perspectives from scientists involved in the manhattan project reflect the following view: regardless of the consequences, building the atomic bomb served as a means to an end, defeating nazi germany. however, evidence like interception of japanese wires revealed their plans to surrender, and u.s. intelligence determined that germany was nowhere near developing a weapon of similar scale.
+          </p>
+          <p>
+            i think 2 scientists (yes, 2, even though we only have a movie about the first), are key to understanding this problem's relevance in today's world. (1) robert oppenheimer and (2) joseph rotblat. originally, both physicists were committed to the cause - building to defeat germany. when rotblat came to know that the technology would have negligible effect in a competitive ww2 advantage and instead be useful for one-upping the soviets, he left, spending the rest of his life working to denuclearize the world (1995 winner of nobel peace prize; ironic to me since alfred nobel invented dynamite). oppenheimer, however, saw through the production of the atomic bomb while grappling with moral indecision (portrayed beautifully by the movie in my opinion). he later promoted denuclearization and opposed hydrogen bomb proliferation, but this proved to be too little too late.
+          </p>
+          <p>
+            with the increasing role of ai in defense, this fundamental dichotomy of values is interesting to apply to perspectives today.
+          </p>
+          <p>
+            rotblat-like individuals appear to be the highest form of moral being -- refusing to build potentially destructive technology no matter the political/economic gain. (note: i say 'potentially' not in the context of the bomb, which predictably led to loss of life, but referring to modern developing technology with untested/unknown applications. ex. ask an engineer to build a tool for the designated purpose of killing others and most will object, but when the dod offers oodles of funding for robotics research for vague future militaristic advantages, it's more difficult to turn away). i respect this stance deeply.
+          </p>
+          <p>
+            however, i believe that building (not! dropping!) the atomic bomb was quite a crucial step for america to thrive as the world power it is today. choosing to avoid militaristic innovation in a political climate where eight other nations are making it a priority would be incredibly naive. choosing how and when to use these technologies, however, remains the key moral question.
+          </p>
+          <p>
+            ai can be useful for military operations in the following ways. minimizing civilian casualties through greater precision in combat, increasing cyber security, supporting/advising human decision-making, integrating dozens of live data feeds, etc. i think the biggest benefits ai brings lie simply within providing a full picture of all data available, adding some <a href="https://blog.palantir.com/safeguarding-freedom-87080c30a712" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">nuance/strategy</a> which may elude the human mind. the key here imo is to embrace ai in the military like we aim to do in healthcare: as a decision support tool to improve efficiency but never replace human decision-making (like google, openai, etc have adopted). these types of advancements are not entirely different from the increases in efficiency gained from the adoption of radio, internet, etc.
+          </p>
+          <p>
+            enter autonomous robotics.
+          </p>
+          <p>
+            the ukraine-russia war brought the arrival of autonomous weapons used in combat primarily in the form of drones. these drones were capable of autonomous flight and targeting, reducing the role of human oversight. russia additionally deployed autonomous ground vehicles, which could benefit human life by removing people from the direct line of combat, but could also result in unintended civilian casualties. this marked the world’s first 'robot war.' the pentagon wants to catch up with russia/china. they aim to produce autonomous ground vehicles by 2026, as well as fully autonomous lethal weapons in a few more years to come.
+          </p>
+          <p>
+            as young scientists and engineers, it's hard to ignore the opportunities that come from aligning with defense goals, but also important to understand that the creators of technology rarely determine how it’s used on the battlefield. i.e. was it oppenheimer's fault for building the bomb or truman's for deploying it? unknowable.
+          </p>
+          <p>
+            apologies to my 2 readers for the long post..much gratitude to you both.
+          </p>
+        </div>
+      </div>
+
+      {/* Second Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">overview of rape crisis in india + indian american action?</h2>
+        <p className="text-sm text-gray-400">June 4, 2025</p>
         <div className="mt-4 text-white space-y-6">
           <p>
             i caved into the propaganda and bought zarna garg's memoir, <em>this american woman</em> (i ran to amazon). after experiencing quite an emotional range, finishing the book in one sitting, and leaving a 5/5 <a href="https://www.goodreads.com/review/show/7596945412?book_show_action=false" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">goodreads</a> review, i went down a rabbit hole about one of the more difficult topics zarna touches on -- violence against women.
