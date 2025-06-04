@@ -39,7 +39,7 @@ export default function Blog() {
             enter autonomous robotics.
           </p>
           <p>
-            the ukraine-russia war brought the arrival of autonomous weapons used in combat primarily in the form of drones. these drones were capable of autonomous flight and targeting, reducing the role of human oversight. russia additionally deployed autonomous ground vehicles, which could benefit human life by removing people from the direct line of combat, but could also result in unintended civilian casualties. this marked the world’s first 'robot war.' the pentagon wants to catch up with russia/china. they aim to produce autonomous ground vehicles by 2026, as well as fully autonomous lethal weapons in a few more years to come.
+            the ukraine-russia war brought the arrival of autonomous weapons used in combat primarily in the form of drones. these drones were capable of autonomous flight and targeting, reducing the role of human oversight. russia additionally deployed autonomous ground vehicles, which could benefit human life by removing people from the direct line of combat, but could also result in unintended civilian casualties. this marked the world’s first 'robot war.' the pentagon wants to catch up with russia/china. they aim to produce autonomous ground vehicles by <strong>2026</strong>, as well as fully autonomous lethal weapons in a few more years to come.
           </p>
           <p>
             as young scientists and engineers, it's hard to ignore the opportunities that come from aligning with defense goals, but also important to understand that the creators of technology rarely determine how it’s used on the battlefield. i.e. was it oppenheimer's fault for building the bomb or truman's for deploying it? unknowable.
@@ -53,7 +53,7 @@ export default function Blog() {
       {/* Second Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">overview of rape crisis in india + indian american action?</h2>
-        <p className="text-sm text-gray-400">June 4, 2025</p>
+        <p className="text-sm text-gray-400">May 27, 2025</p>
         <div className="mt-4 text-white space-y-6">
           <p>
             i caved into the propaganda and bought zarna garg's memoir, <em>this american woman</em> (i ran to amazon). after experiencing quite an emotional range, finishing the book in one sitting, and leaving a 5/5 <a href="https://www.goodreads.com/review/show/7596945412?book_show_action=false" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">goodreads</a> review, i went down a rabbit hole about one of the more difficult topics zarna touches on -- violence against women.
