@@ -6,6 +6,17 @@ export default function Blog() {
         this is more or less a stream of consciousness as i unpack my ideas. feel free to read, agree, disagree, or reach out -- i enjoy productive conversations.
       </p>
 
+      {/* Fourth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">thoughts before i write next post</h2>
+        <p className="text-sm text-gray-400">June 9, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            when this blog was a seed of an idea, i assumed i would have a theme (impact of ai in various industries at the time). as time (approx 4 days) went by, i resorted to writing about absolutely anything which piqued my interest, usually inspired by some article or reel i saw. the more i think about it, i realize that this deviation from my original plan actually supports my underlying goal, which is just to build my brain. sure, i want to be knowledgeable and critical of topics within the field i want to enter, but underneath that, i aim to be mentally sharp. i identify roughly 3 params in mental acuity (there are def more, but these are the three i think can be built intentionally, rather than gaining intelligence from lived experience). (1) problem-solving (best developed through math/programming imo, yay matiks), (2) conversation (learning from people, being able to adapt/respond, arguably highest weight), (3) writing (clear communication, synthesizing information before we lose this capability to llms). generally after covid/the chatgpt boom, i felt critical thinking in schools decline. i believe solving difficult problems is a muscle we have to build, so this is my method of pursuing (3) and consequently (2). 
+          </p>
+        </div>
+      </div>
+      
       {/* Third Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">what we can learn from the manhattan project</h2>
