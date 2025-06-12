@@ -6,13 +6,51 @@ export default function Blog() {
         this is more or less a stream of consciousness as i unpack my ideas. feel free to read, agree, disagree, or reach out.
       </p>
 
+      {/* Fifth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">designer genes, biotech races, & open source science</h2>
+        <p className="text-sm text-gray-400">June 12, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            in 2018, chinese scientist he jiankui created the first ever crispr edited human embryos (twin girls made resistant to HIV), and spent the following three years in jail. regarded by some as a fraud and others as a frankenstein-like visionary, he was indisputably the first to pull something this radical, no matter how it was received by the scientific community.
+          </p>
+          <p>
+            fast forward 7 years to June 4, 2025, when nucleus genomics, led by kian sadeghi, officially launched their genetic optimization service for embryos. parents can choose traits to reduce risks for preventable conditions as well as optimize for ‘ideal’ characteristics, like intelligence (slippery slope).
+          </p>
+          <p>
+            in 7 years, the same science that sent a man to jail has now become somewhat commoditized, and that is both fascinating (biotech moves so quickly!) and terrifying (are we building a new race of humans?)
+          </p>
+          <p>
+            right now, one week post nucleus genomics launch, this field has never been under more fire. as a cautious supporter of this space, i believe that gene editing has immeasurable benefits in principle, but fundamentally boils down to 4 (ish) important tenants: interdisciplinary science/explainability, global competition in biotech, timing, & unbounded frivolousness. in 5 years, i may eat my words when this technology emerges as the ultimate pandora’s box, but for now, my thoughts are as follows.
+          </p>
+          <p>
+            we have to remember that these advances are in biotech, not just tech. part of the criticism jiankui received came from the fact that neither he nor his few team members had a background in genetics/medicine, but were virtually conducting clinical trials. when reading about this problem online, i came across two broad perspectives, one coming from ‘bio’ and the other from ‘tech.’ the former emphasized moral ambiguity and avoided adoption, while the latter optimistically emphasized preventative medicine, fitting evolution to a classic optimization problem. problems arise when these two sides cannot find a safe overlap. i believe that casting new technology entirely as unethical only builds unfounded fear, rather than defining a safe bounded space to test and regulate it. currently, the u.s. gov has no regulations on gene editing (the eu does!), the pioneers are mostly people with math/cs/physics backgrounds, and scientists have not been transparent with results (how are those twin girls doing now?). of course people are scared! (sidenote: i actually think nucleus harnesses this idea very well — they have strong clinical teams/transparency. but might be too early for their time, will discuss later)
+          </p>
+          <p>
+            why haven’t results been collaborative and transparent? imo, a sense of global competition in biotech. although it wasn’t well received at the time, jiankui (and therefore china) was first. first to pioneer this technology, first to get people talking, and first to inspire research in other labs. in order for this field to flourish, we need to learn from the mistakes made. so much is unknown about the human genome, so why conceal what we do know?
+          </p>
+          <p>
+            before a company like nucleus/orchid can successfully take off, i believe we need much more trust and testing. crispr on embryos can make edits can unintended locations, not edit all cells uniformly, and lacks safe delivery mechanisms. at best, i posit that we are at least 5 years from tested trusted use. what scares me is that affluent parents can choose ‘optimal’ traits <i>right now</i> with long-term side effects that are fundamentally unknowable. and many of these are probability based. well-off parents may be tempted to pay for editing out a gene which increases risk of breast cancer by 25%, for example, but is that worth a potential shorter life expectancy, lowered immunity to other diseases, and countless other side effects? it’s easy to get lost in one side of this coin when the other side’s results only become clear a lifetime later.
+          </p>
+          <p>
+            this process costs approx $6000 currently, which for many families seems worth it to relieve themselves of long term pain. this is slightly less ambiguous for single-gene traits (ex tay sachs), but becomes a lot more tricky when companies claim they can conduct ‘probability scoring assessments’ for polygenic (and 90% nurture driven imo) traits like intelligence. suddenly, we have well-off parents picking the brightest embryos with the most longevity, and this for me brings up 2 main concerns. (1) we have successfully messed with the one canonically random process in <i>nature</i> (mutation, yay us) (2) have we created a system where genetic advantages concentrate within the upper class? where richer people are somehow smarter by <i>nature</i>? quite a dystopian thought.
+          </p>
+          <p>
+            so if we facilitate collaborations between clinicians and ai scientists, conduct comprehensive and transparent research, and define and regulate a first small (but slowly increasing) space we deem ethical, in 5 years or so, we may have something both trusted and revolutionary. of course, like it is with all new biotech, this process will be slow and full of fire. i’m sure when it was first suggested to inject people with a concoction of dead viral bits, people thought vaccines were batshit crazy, but here we are.
+          </p>
+          <p>
+            question i am currently thinking about: if parents select the same ‘ideal’ traits for their embryos and this process remains legal, will we be in worse shape overall than how we started? genetic diversity serves as insurance to unforeseen challenges, and narrowing the gene pool may unintentionally put us back to square one..just food for thought, only time will tell.
+          </p>
+        </div>
+      </div>
+
       {/* Fourth Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">thoughts before i write next post</h2>
         <p className="text-sm text-gray-400">June 9, 2025</p>
         <div className="mt-4 text-white space-y-6">
           <p>
-            when this blog was a seed of an idea, i assumed i would have a theme (impact of ai in various industries at the time). as time (approx 4 days) went by, i resorted to writing about absolutely anything which piqued my interest, usually inspired by some article or reel i saw. the more i think about it, i realize that this deviation from my original plan actually supports my underlying goal, which is just to build my brain. sure, i want to be knowledgeable and critical of topics within the field i want to enter, but underneath that, i aim to be mentally sharp. i identify roughly 3 params in mental acuity (there are def more, but these are the three i think can be built intentionally, rather than gaining intelligence from lived experience). (1) problem-solving (best developed through math/programming imo, yay matiks), (2) conversation (learning from people, being able to adapt/respond, arguably highest weight), (3) writing (clear communication, synthesizing information before we lose this capability to llms). generally after covid/the chatgpt boom, i felt critical thinking in schools decline. i believe solving difficult problems is a muscle we have to build, so this is my method of pursuing (3) and consequently (2). 
+            when this blog was a seed of an idea, i assumed i would have a theme (impact of ai in various industries at the time). as time (approx 4 days) went by, i resorted to writing about absolutely anything which piqued my interest, usually inspired by some article or reel i saw. the more i think about it, i realize that this deviation from my original plan actually supports my underlying goal, which is just to build my brain. sure, i want to be knowledgeable and critical of topics within the field i want to enter, but underneath that, i aim to be mentally sharp. i identify roughly 3 params in mental acuity (there are def more, but these are the three i think can be built intentionally, rather than gaining intelligence from lived experience). (1) problem-solving (best developed through math/programming imo, yay matiks), (2) conversation (learning from people, being able to adapt/respond, arguably highest weight), (3) writing (clear communication, synthesizing information before we lose this capability to llms). generally after covid/the chatgpt boom, i felt critical thinking in schools decline. i believe solving difficult problems is a muscle we have to build, so this is my method of pursuing (3) and consequently (2).
           </p>
         </div>
       </div>
