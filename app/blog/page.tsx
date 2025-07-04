@@ -5,7 +5,36 @@ export default function Blog() {
       <p className="text-lg text-white mt-4">
         this is more or less a stream of consciousness as i unpack my ideas. feel free to read, agree, disagree, or reach out.
       </p>
-
+      {/* Sixth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">thoughts on human thought</h2>
+        <p className="text-sm text-gray-400">July 4th, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            on a recent road trip, i found myself listening with curiosity as my friend confidently named all the types of trees we passed along the way. initially, i was impressed by the sheer volume of information she stored in her brain concerning a subject i don’t find particularly riveting. as i listened to her claim that we first passed an oak, then ginko, then magnolia, etc identified due to leaf shape/color/count, i had two general concerns. (1) i feel as though i have gotten considerably more gullible over time. short of claiming she saw a carrot tree, i would have consumed any amount of misinformation, not because i lack the ability to verify, but because when information is presented to us, our first thought is to accept it as given. it doesn’t take much effort to ensure accuracy, but lately, with the transition of knowledge gain shifting from search engines to agentic tools, i’ve felt the activation energy to do so increase. (2) this goes far beyond my disinterest in foliage. the power of information dissemination has grown considerably since the rise of algorithmic social media, and continues to build with the rise of LLM agents. simply put, it’s mind control. social media algorithms alter our opinions on everything from politics to religion to healthcare, pushing that 20 second video that will provide the perfect dopamine rush. scrolling platforms embody the ideal low effort high reward package. who would spend 15 minutes reading a cnn article when tiktok can feed a 15 second summary? who would search the internet to read a political platform when claude can generate an understandable, human-sounding explanation in miliseconds? 
+          </p>
+          <p>
+            as a techno-optimist, i am the first to agree that these tools are very very cool and are making the world spectacular. but when we consume generated information, we inherently consume bias. in the spirit of moderating content safety, there has been a rush towards <a href="https://alignment.anthropic.com/" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">alignment science</a> — essentially controlling, altering, or limiting content for the sake of upholding human values. 
+          </p>
+          <p>
+            simply put, LLMs compute probability distributions for coming words given preceding text, and alignment research aims to mess with that, increasing the likelihood of an HHH (harmless, helpful, honest) response. this could very easily be seen as censorship when taken too far, and is mainly carried out in the following ways.
+          </p>
+          <p>
+            (1) data preparation. <a href="https://arxiv.org/pdf/2405.04434" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">during DeepSeek training</a>,  ‘controversial’ information about regional cultures was removed, and the model then understandably performed worse on test sets associated with those cultures. (2) post training alignment. (imo the most valid, and the core of anthropic’s constitutional AI methods). this technique adds additional training steps to a base model, usually adding a reinforcement learning from human feedback (rlhf) layer. this means that human crowdworkers have chosen between two model outputs as more helpful/harmless, and the model is rewarded for choosing the ‘more HHH’ response. 
+          </p>
+          <p>
+            at the surface level, ‘aligning with human values’ seems like a noble goal and a step towards AI safety. i worry, however, that techniques like data cleaning and rule-based query refusal will only serve as information control in the hands of a bad actor. examples follow. leading up to the u.s. election, chatGPT refused all queries about polling data and voter facts. in china, DeepSeek currently refuses queries asking about the public opinion of xi xinping. 
+          </p>
+          <p>
+            post-training alignment, however, imo holds great promise. if we can break down muddy ‘value’ based issues into technical problems, we move one step closer to a more transparent information flow. questions like “should the response focus on being more helpful or harmless?” are inherently philosophical and discussion-heavy. i don’t deny that there are long-standing frameworks for healthy debate of such issues in many fields (and conversations like that are imperative!), but i believe that if we can leverage mathematical models to analyze tradeoffs, there will be significant improvements in the short term.           </p>
+          <p>
+            additionally, aside from simple request refusal, part of the issue with knowledge consumption is the lack of a clear ‘thought process.’ if consumers could understand the exact chain of thought a model uses when answering a query, they are far more likely to (1) understand why the query may be considered unsafe and modify it or clarify their intentions, (2) find potential reasoning errors and the cause of a wonky output, and (3) simply increase trust in the tools they rely on. 
+          </p>
+          <p>
+            eventually, i posit that alignment will be so heavily integrated into policy that we will have a separate ‘constitution’ simply for ai tools. i eagerly await this era, but meanwhile, in the spirit of independence day, i encourage the revival of independent thinking. 
+          </p>
+        </div>
+      </div>
       {/* Fifth Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">designer genes, biotech races, & open source science</h2>
