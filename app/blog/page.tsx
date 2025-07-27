@@ -5,6 +5,52 @@ export default function Blog() {
       <p className="text-lg text-white mt-4">
         This is more or less a stream of consciousness as I unpack my ideas. Feel free to read, agree, disagree, or reach out.
       </p>
+      {/* Seventh Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">Medical Superintelligence + Importance of Interp</h2>
+        <p className="text-sm text-gray-400">July 26th, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            I recently read <a href="https://arxiv.org/pdf/2506.22405" className="text-blue-400 underline" target="_blank" rel="noopener noreferrer">this paper</a> released by Microsoft on clinical language models, where they had models act as different roles in the medical team (i.e. one patient model withholding information, one devil’s advocate, one test chooser, etc) to come up with a sequential diagnoses. The models performed extremely well on difficult cases from the New England Journal of Medicine, but it wasn’t its high predictive accuracy that I found interesting. 
+          </p>
+          <p>
+            There are a number of wonderful papers in the clinical AI space, but this one stood out to me in particular because it seemed extremely grounded in real-world healthcare system capabilities: one of its performance metrics was the USD cost of each test and each visit, and agents were biased against choosing more expensive tests, simulating real-world circumstances. This is important for the following reason. Many ML-healthcare models create a false sense of competency when boasting 99% diagnostic accuracy, often eliciting the thought of ‘if it were that easy, shouldn’t this be cured by now?’ I’m sure if every doctor had access to every test, medication, and resource, a lot of preventable diseases simply wouldn’t exist today. 
+          </p>
+          <p>
+            5 years ago, people were confidently claiming that “5 years from now, AI will replace radiologists and derm for sure, the models are already 90+% accurate!” 5 years later, while the field has considerably changed with technology, that claim is very much not the case. (see (3)) A couple things are key to understand here.
+          </p>
+          <p>
+            (1) ML provides beautiful frameworks for dealing with unstructured data, and will be useful in finding patterns in vast volumes of multimodal data (demo, symptoms, genetics, imaging) that may elude the human mind. ML also provides the benefit of continuous monitoring (i.e. social media), which a human cannot feasibly do. For mental health conditions in particular, the hope is that through integrating multimodal datastreams, we can come up with personalized, biologically based diagnostic markers rather than rely on subjective descriptive symptoms. Using these tools, healthcare professionals could focus on more difficult cases, increase volume of patients seen, and reduce diagnostic error. (The MSR paper claims that 1 set of agents = 21 practicing physicians)
+          </p>
+          <p>
+            (2) A model is only as good as its data. High predictive power comes from models trained on gigantic datasets, like the UK BioBank, China Brain Project, NEJM cases from Mass Gen, etc. But what happens when patients have characteristics dissimilar to patients from these cohorts? Lower predictive accuracy. 
+          </p>
+          <p>
+            Here, however, I argue that regardless, clinical AI is a huge step towards medical equity. If an LLM can simply suggest a human doctor’s visit to an unsuspecting patient because of some data-driven inconsistency, (warning signs on social media, telling GPT about lack of nutrition, etc), early diagnosis can save a life. In other words, rather than automating the process at the clinical stage, we’re bringing potential patients in earlier, increasing access to care. Incredible.  
+          </p>
+          <p>
+            (3) While I personally don’t think they will ever be fully replaced (**), doctors and pre-med students should be AI literate and realize that their jobs and lives might change pretty dramatically. Human medical professionals are incredible. They retain large volumes of information in a cognitive, caffeine-fueled database and pull the right information at the right time to save lives. However, in the age of superintelligence, the human ‘superpower’ cannot be information recall, as this is something AI has already mastered. GPT-4 can achieve a near perfect score on the USMLE, the most rigorous assessment of clinical knowledge. Instead, there are a couple key areas in which I believe human experience remains the advantage. 
+          </p>
+          <p>
+            (** this is truly my personal opinion. In my medical experience as a patient in both routine visits and emergency room adventures, 80% of the value I derive from medical visits comes from the human contact element. God bless good bedside manner. However, I don’t deny that 99% of the ‘diagnostic’ element could have been performed by a large language model. Many ML heads I know would actually prefer to be seen by a language model finetuned on all of their medical records to avoid any likely human error.)
+          </p>
+          <p>
+            (3.1) Complex interdisciplinary cases. There is simply not enough data with ground truth diagnoses for models to be trained, so clinical experience is vital. Ex: a complex pediatric heart cancer that has only been found in <10 patients. Additionally, although hopefully becoming increasingly rare, some of these cases have only been seen and documented by human memory in places with no consistent health record systems. 
+          </p>
+          <p>
+            (3.2) Treading around hard-to-discuss areas, especially in mental health. While GPT can generally act as a confidante for most problems (being anon encourages seeking help, imo), medical alignment has led models to avoid discussing topics like substance abuse, depression, etc, rather than attempting to create a treatment plan. For example, in a user’s mental health conversation, as soon as substances are mentioned, DeepSeek and ChatGPT both produce the following response (or a semantic alternative). "I am concerned that you are abusing pain medicine. I would like for you to consider a substance use disorder treatment program."
+          </p>
+          <p>
+            Additionally, mental health illnesses are fundamentally unique. First off, they rely on subjective clinical observation rather than some sort of anatomical measurement (I realize this is an oversimplification!). They also manifest very differently in different people, making it hard for models to generalize to different patient populations, especially because collecting data from randomized control studies is difficult due to informed consent. All of these challenges make human expertise in psych vital. I do believe, however, that AI systems have unique benefits in mental health, and could 10x the productivity of any healthcare professional. See section 1 for what that entails in my mind. 
+          </p>
+          <p>
+            The biggest bottleneck in healthcare AI today is adoption and trust. I think before healthcare professionals can fully use AI, they have to fully understand its thought process. Uninterpretable blackbox models = unfair clinical decisions. The Microsoft paper attempted to show a clinical chain of thought, but what was still unclear was <i>how</i> the model came to those individual conclusions. A very simple example: a patient states they have a headache, runny nose, and body aches. The model initially posits the common cold, then the flu, and finally covid. Covid may be the correct diagnosis, but how do we validate that the model came to that conclusion in the correct manner? What if all training samples for Covid were of Asian females from Georgia Tech, so when faced with a similar patient the model automatically landed on covid? Even though we have a ‘chain of thought,’ we still need more clarity. In my opinion, interp will be what prevents adoption of AI in many fields, not just medicine. As capabilities grow, humans become increasingly wary of yielding control to a system whose thinking they cannot see - and understandably so! Human doubt fuels alignment innovation. 
+          </p>
+          <p>
+            TLDR: No matter when they were trained, what specialty they’re in, or what circumstance they are living in, healthcare professionals should open their eyes to the magic (from my perspective) or killer intelligence (doomers might say) coming their way. 
+          </p>
+        </div>
+      </div>
       {/* Sixth Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">Thoughts on Human Thought</h2>
