@@ -5,6 +5,63 @@ export default function Blog() {
       <p className="text-lg text-white mt-4">
         This is more or less a stream of consciousness as I unpack my ideas. Feel free to read, agree, disagree, or reach out.
       </p>
+       {/* Eighth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">Analysis Paralysis</h2>
+        <p className="text-sm text-gray-400">September 21st, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            Since starting college, I have been overwhelmed by choices. Should I spend the next hour working or spending time with my new friends? Should I save money by eating at the dining hall or indulge in another coffee? Rather than being plagued by indecision, however, I find myself thinking over ‘what-ifs.’ What if I had left 5 minutes earlier - would I have gotten more work done, more sleep, or missed something important?
+          </p>
+          <p>
+            In my dream world, I can follow through with all my possible choices and relive my life ‘correctly.’ In this utopia, however, I lack responsibility and ownership over my decisions. 
+          </p>
+          <p>
+            A few nights ago, after regretting my decision to stay up quite so late and pondering the possible benefits I had forgone, I started to think about our immense capacity for counterfactual reasoning. It’s truly one of the most sophisticated processes of biological intelligence* and is useful for much more than my trivial lifestyle indecision. 
+          </p>
+          <p>
+            The core of this mental process comes down to correlation vs causation. It’s not enough to know that p follows q; we must know what would happen if p had never occured. This will result in a combinatorial explosion of possibilities, and we must deliberately decide which ones are worth evaluating. 
+          </p>
+          <p>
+            At first glance, the exercise of imagining alternate realities seems like a counterintuitive waste of time and a classic example of analysis paralysis. An optimal algorithm would calculate the expected values of all the possible outcomes and simply pick the best one, so why shouldn’t we?
+          </p>
+          <p>
+            I identify 2 (?) computational bottlenecks as to why we cannot do the same. Firstly, we cannot possible parse through that many options - we naturally break problems down into their component parts somewhat sequentially. 
+          </p>
+          <p>
+            Secondly, we choose where to place cognitive control. (evc in psych terms). We subconciously calculate expected values of mental activity, balancing the effort it consumes to imagine alternate realities with the potential benefits of doing so.           </p>
+          <p>
+            In the age of AI, scientists try and try again to capture the crown jewel of human thought. In my opinion, these bottlenecks are the most ‘human’ quality of our cognitive experience, so why do we dismiss them as computational weaknesses? 
+          </p>
+          <p>
+            If we compare recurrent neural networks, the nn most similar to the human mind, to more parallelizable systems, we start to see the beauty of mind vs machine. 
+          </p>
+          <p>
+            A hallmark feature of an RNN is its hidden state, the analog of a human working memory. There exists no recomputation required to move from one step to the next, and every move is contexualized by the previous one. It models human focus through gating, keeping relevant information and parsing through irrelevant noise. Most importantly, RNN reasoning respects causality; actions proceed temporally and cognition is actually modeled in a way that resembles EVC. 
+          </p>
+          <p>
+            These human-like qualities are advantageous for agentic systems in concrete ways. A working memory enables coherent action in real time; an agentic assistant can carry relevant context and move quickly in a variety of different circumstances. Causal, stepwise processing favors questions like “If I do X next, what happens?” which is exactly what matters if and when we yield more control to AI. An agent used to make a medical decision, for example, should produce a line of reasoning and consider counterfactuals every step of the way before making a diagnosis. An anytime stance** lets us act now and refine answers later, leading to speedy decisions when deadlines are hard and information is partial (and it usually is). Continuous, frugal updating supports personalization and adaptation without needing a massive debrief of our entire history. 
+          </p>
+          <p>
+            When data and compute are abundant, however, the strengths of other NN types shine through. Global pattern discovery is a necessary trait that I believe will resolve many world problems and simplify many industries. It’s just not a trait that I think humans can and should attempt to master. Our inability to evaluate every possible outcome isn’t a failure; it’s simply not mean’t to be a human success. 
+          </p>
+          <p>
+            I believe that part of the key to moving closer to AGI is embracing the shortcomings of the human mind, not by limiting the computational power of AI, but by forcing unique modes of thinking. I posit that a rational, more human-like system capable of reasoning what could have been done differently will be the most useful tool we have within the next 5 years, even if it’s a slow thinker. 
+          </p>
+          <p>
+            TLDR: Overthinking your choices is not sloppy or suboptimal. AI should probably also be overthinking. I believe the next big thing in AI already exists in the minds of those around us.      
+          </p>
+          <p>
+            *I regularly debate adding a minor in neuroscience
+          </p>
+          <p>
+            **anytime meaning at any point the model can output an answer 
+          </p>
+        </div>
+      </div>
+      
+      
+      
       {/* Seventh Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">Medical Superintelligence + Importance of Interp</h2>
