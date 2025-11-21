@@ -31,6 +31,7 @@ export default function Blog() {
           </p>
           <p>
             Even with all of this, I do not wish that tools like GPT were never invented. Technology did not erase intelligence, it reshaped the skills that are easiest to access and the ones that require intentional effort. In a strange twist, I believe this might help us notice the beauty of manual thought again. Using a rather simplistic comparison, I think about it like cursive. If people don’t intentionally write in cursive, it will gradually be replaced by standard print and typing. When you do see it, however, it is intricate and beautiful, precisely because it feels human and effortful.
+          </p>  
           <p>
             Intelligence feels similar now. Memory, focus, patience, and reflection will not survive by accident. They have to be chosen. 
           </p>
