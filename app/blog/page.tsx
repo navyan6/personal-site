@@ -5,7 +5,46 @@ export default function Blog() {
       <p className="text-lg text-white mt-4">
         This is more or less a stream of consciousness as I unpack my ideas. Feel free to read, agree, disagree, or reach out.
       </p>
-       {/* Eighth Blog Post */}
+       
+      {/* Ninth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">On the Basis of Intelligence</h2>
+        <p className="text-sm text-gray-400">November 20th, 2025</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            At age 12, I believed that intelligence came internally from memory and externally from validation. I spent hours memorizing the names of bones and muscles for Science Olympiad tests, feeling ‘smart’ when peers and teachers praised me for my successes. I thought that intellect was something you could hold in your hands, seeing the most decorated students deemed the most intelligent. The formula (study, score higher, gain brain points) was comforting, and I assumed this paradigm for the rest of the world. 
+          </p>
+          <p>
+            That perspective has definitely shifted significantly through high school and beyond, but   reading the short story  Flowers for Algernon recently made me consider it more deeply.  Charlie’s line, “I just want to be smart like other pepul so I can have lots of frends who like me,” carries painful honesty. He wants an operation to increase his IQ in hopes of acceptance from the world around him, not so he can chase fame, but to move through the world with belonging. 
+          </p>
+          <p>
+            The way people treat Charlie as he gains intelligence is downright worrisome. Dr. Nemur refers to him as “practically an inanimate object,” suggesting that once someone’s IQ drops below a certain societal threshold, we quietly shift them into a category that feels less than fully human, somehow unworthy of decency and respect. 
+          </p>
+          <p>
+            Each main character seems to represent a different version of intelligence: intelligence combined with (1) arrogance, (2) humility, and (3) missing emotion. (1) Nemur embodies the type that comes with arrogance, the kind that uses knowledge to build distance and superiority rather than connection. His intelligence is focused on control, classification, and proof, and in that mindset, Charlie becomes more experiment than human. (2) On the other hand, Alice represents intelligence intertwined with kindness. She notices, listens, and pays attention to Charlie as a whole human being, both before and after the operation. (3) Charlie, after the operation, becomes the version of intelligence that looks impressive from the outside and deeply lonely from the inside, highlighting an absence of balance between IQ and EQ.  Charlie’s pain comes from the widening gap between what his mind is capable of and what his heart knows how to hold. So instead of the belonging he originally craved, he meets with induced isolation. 
+          </p>
+          <p>
+            I think about this tension in the context of the world we live in now. In a time when answers to factual questions are at our fingertips every waking hour, the ability to think deeply and critically often gets overshadowed. It saddeningly has become easier to retrieve information than to wrestle with it, and amidst our busy lives, we forget we used to think. It sounds silly, but the convenience of having information readily available has led to a phenomenon sometimes called “digital amnesia.”  Relying on devices to store and retrieve facts weakens our habit of remembering and processing information on our own. Confusion starts to feel less like a natural step in learning and more like an inconvenience to be avoided. I honestly feel this within myself. In high school, I would grapple with chemistry problems, accepting this time as part of the mental process and never considering mental energy a waste. Now, I fight the urge to tell myself I’m ‘wasting time’ when I’m truly just learning. 
+          </p>
+          <p>
+            On top of that, in a culture that sometimes equates intelligence with certainty and infallibility, the value of intellectual humility can disappear. In college, I notice a difference between quiet and proclaimed intelligence. There are people whose intelligence you understand through the questions they ask and the way they listen, and others who feel the need to proclaim how much they know. It is not that the latter are not intelligent (they definitely are!), but I believe that one of the most important parts of whole intelligence is recognizing that there exists no upper bound. 
+          </p>
+          <p>
+            Even with all of this, I do not wish that tools like GPT were never invented. Technology did not erase intelligence, it reshaped the skills that are easiest to access and the ones that require intentional effort. In a strange twist, I believe this might help us notice the beauty of manual thought again. Using a rather simplistic comparison, I think about it like cursive. If people don’t intentionally write in cursive, it will gradually be replaced by standard print and typing. When you do see it, however, it is intricate and beautiful, precisely because it feels human and effortful.
+          <p>
+            Intelligence feels similar now. Memory, focus, patience, and reflection will not survive by accident. They have to be chosen. 
+          </p>
+          <p>
+            I am still untangling my twelve year old belief that intelligence is a mix of recall and praise. I still feel a small thrill when I get something right or understand something complex. But as I grow older, I am starting to notice that the people I respect most are not the ones who dominate every conversation or have a fact ready at all times. They are the ones who stay curious, who admit what they do not know, and who are willing to be wrong without crumbling. They are the ones who treat intelligence as a practice, a perspective I’ve recently found both necessary and invaluable. 
+          </p>
+         
+        </div>
+      </div>
+      
+      
+      
+      
+      {/* Eighth Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">Analysis Paralysis</h2>
         <p className="text-sm text-gray-400">September 21st, 2025</p>
