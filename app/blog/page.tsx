@@ -13,7 +13,7 @@ export default function Blog() {
         <p className="text-sm text-gray-400">January 1st, 2026</p>
         <div className="mt-4 text-white space-y-6">
           <p>
-            First and foremost, happy new year! I am very grateful that I have the time to write and share my 2025 musings :) 
+            First and foremost, happy new year! I am very grateful that I had the time to write and share my 2025 musings :) 
           </p>
           <p>
             The two things I remember most from my recent trip to Kerala, India are the colors green and red. Green enveloped me: the expansive natural beauty, miles of tea farms, and aromatic spice gardens hold strikingly vivid in my memory. The other key detail I remember was placed on every other tree or so, a reminder of very human involvement amongst the greenery: frequent  red communist flags. At first, the sight shocked me. India is a democratic country and I always thought of Indian government in the context of the BJP and congress — unaware of the strong southern Marxist party and its quiet successes. After doing some post hoc research, I believe it is the strongest functioning communist party in a fully democratic country. 
