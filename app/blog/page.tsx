@@ -6,6 +6,48 @@ export default function Blog() {
         This is more or less a stream of consciousness as I unpack my ideas. Feel free to read, agree, disagree, or reach out.
       </p>
        
+      
+       {/* Tenth Blog Post */}
+      <div className="mt-8 text-left max-w-3xl mx-auto">
+        <h2 className="text-2xl font-bold text-white">A Visit to God’s Own Country</h2>
+        <p className="text-sm text-gray-400">January 1st, 2026</p>
+        <div className="mt-4 text-white space-y-6">
+          <p>
+            First and foremost, happy new year! I am very grateful that I have the time to write and share my 2025 musings :) 
+          </p>
+          <p>
+            The two things I remember most from my recent trip to Kerala, India are the colors green and red. Green enveloped me: the expansive natural beauty, miles of tea farms, and aromatic spice gardens hold strikingly vivid in my memory. The other key detail I remember was placed on every other tree or so, a reminder of very human involvement amongst the greenery: frequent  red communist flags. At first, the sight shocked me. India is a democratic country and I always thought of Indian government in the context of the BJP and congress — unaware of the strong southern Marxist party and its quiet successes. After doing some post hoc research, I believe it is the strongest functioning communist party in a fully democratic country. 
+          </p>
+          <p>
+            In American social studies classes, I learned (putting this in the best way possible) that communism is difficult: difficult to implement as envisioned, difficult to manage without beaurocracy and corruption, and difficult to create a society in which people can thrive. So, I was surprised to see what I felt was the closest successful recreation of the manifesto. Why was communism working in Kerala? What were its practical benefits and drawbacks and what about them separates Kerala from other Indian regions?
+          </p>
+          <p>
+            Kerala, as a state, boasts many accomplishments, from a 100% (!!! wow) literacy rate, to religious tolerance (!!! wow), to the elimination of extreme poverty, so I think its worth understanding how its government enables these successes. (here, I could summarize Kerala’s govt structure and relevant history, but I think thats better done through a simple wikipedia search). 
+          </p>
+          <p>
+            As I was reading about the many facets of this system (unions creating better living conditions, land reform giving workers property ownership, and a religious renaissance virtually eliminating the caste system), I genuinely began to question why more nations weren’t adopting similar strategies. I then realized, however, that Kerala does in fact contain the same common issues of communism, with one key difference. A lack of booming industry, unrest from unions, and high political bureaucracy definitely exist there, but unlike in other communist countries, overseas citizens seem to be throwing lifelines. 
+          </p>
+          <p>
+            When Mallu people move away from Kerala to other countries, they historically have sent back huge sums of money called remittances. These sums are so astonishingly high and make up such a large proportion of overall revenue that Kerala pretty much guarantees its success independent of political state. 
+          </p>
+          <p>
+            But I also believe that its success is partially driven by the design of the two-party system. Much like any other country where either end of the political spectrum grounds the other and promotes progress, if the communist party existed without its (less popular) democratic counterpart, Kerala  would not have attained the same glory. i.e. No room for complacency! If communism wasn’t providing real value to people, the congress would take over — and historically it did! Every 5 years or so the congress (dem) party would reclaim power and the marxists would need to improve their ways, usually resulting in reconnecting with their voter base and improving the lives of lower classes. 
+          </p>  
+          <p>
+            Did Kerala need communism to achieve this aforementioned success? I believe that, yes, some of Kerala’s unique successes are facets of Marxism alone, but as a result, it may never boast some of the accomplishments open to the rest of India. Delhi, Bengaluru, Mumbai, Hyderabad, and more are all HUGE and growing urban tech hubs, which seems unlikely to ever happen in Cochin or Trivandrum. Coincidentally, we flew directly from Cochin to Delhi, and I saw this stark difference with my own eyes.
+          </p>
+          <p>
+            Leaving Kerala, I am grateful for two things: the ability to experience its beauty and hospitality, and the chance to learn bits and pieces of its history and inner workings. 
+          </p>
+          <p>
+            Merry Christmas and Happy New Year to the place that inspired me with its Christmas colors! 
+          </p>
+         
+        </div>
+      </div>
+      
+      
+      
       {/* Ninth Blog Post */}
       <div className="mt-8 text-left max-w-3xl mx-auto">
         <h2 className="text-2xl font-bold text-white">On the Basis of Intelligence</h2>
