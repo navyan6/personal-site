@@ -13,7 +13,34 @@ export default function Portfolio() {
       </p>
 
       {/* Project Cards */}
+
+
+
+      
       <div className="grid grid-cols-3 gap-8 mt-8 justify-center mx-auto max-w-5xl">
+        {/* New Card: Multi-Agent RL for Faithful Chain-of-Thought */}
+        <div className="group perspective">
+          <div className="relative w-80 h-96 transform-style-preserve-3d group-hover:rotate-y-180 transition-transform duration-500">
+            {/* Front Face */}
+            <div className="absolute w-full h-full bg-white text-black flex flex-col items-center justify-start backface-hidden p-4 shadow-lg rounded">
+              <h3 className="text-xl font-bold mb-4">Multi-Agent Reinforcement Learning for Faithful Chain-of-Thought</h3>
+              <img src="/project6.svg" alt="Multi-Agent RL" className="w-full h-64 object-cover rounded" />
+            </div>
+            {/* Back Face */}
+            <div className="absolute w-full h-full bg-white text-black flex flex-col items-start justify-center rotate-y-180 backface-hidden p-4 shadow-lg rounded">
+              <p className="text-sm">
+                - Working on this with the AI Safety Initiative at Georgia Tech. <br />
+                - Current Project: Multi-Agent Reinforcement Learning for Faithful Chain-of-Thought. <br />
+                - Building a simple multi-agent RL environment where agents must coordinate using chain-of-thought–style reasoning, making their verbalized reasoning part of how they succeed on the task. <br />
+                - Introducing incentives where agents rely on or evaluate each other’s reasoning, so unfaithful or misleading chain-of-thought directly harms coordination and performance. <br />
+                - Testing whether faithfulness improves when scaling model size, number of agents, or model class, compared to standard outcome-based RL settings. <br />
+                - Analyzing whether agents converge to faithful, human-interpretable reasoning or instead develop alternative coordination strategies that bypass explicit chain-of-thought. <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
         {/* Card 1 */}
         <div className="group perspective">
           <div className="relative w-80 h-96 transform-style-preserve-3d group-hover:rotate-y-180 transition-transform duration-500">
