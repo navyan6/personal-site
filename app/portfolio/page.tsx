@@ -3,7 +3,7 @@ export default function Portfolio() {
     <div className="text-center">
       <h1 className="text-4xl font-bold text-white">Project Archive</h1>
       <p className="text-lg text-white mt-4">
-        Currently interested in machine learning for materials science and sustainability. 
+        Currently interested in human-centered AI and fairness in ML. 
         <br />
         <br />
         Previously worked on AI-based solutions for various diseases in an effort to make healthcare more equitable. 
