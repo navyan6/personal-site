@@ -24,7 +24,7 @@ export default function Portfolio() {
             {/* Front Face */}
             <div className="absolute w-full h-full bg-white text-black flex flex-col items-center justify-start backface-hidden p-4 shadow-lg rounded">
               <h3 className="text-xl font-bold mb-4">Multi-Agent Reinforcement Learning for Faithful Chain-of-Thought</h3>
-              <img src="/project6.svg" alt="Multi-Agent RL" className="w-full h-64 object-cover rounded" />
+              <img src="/project6.jpg" alt="Project 6" className="w-full h-64 object-cover rounded" />
             </div>
             {/* Back Face */}
             <div className="absolute w-full h-full bg-white text-black flex flex-col items-start justify-center rotate-y-180 backface-hidden p-4 shadow-lg rounded">
