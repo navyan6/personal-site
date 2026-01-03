@@ -29,12 +29,10 @@ export default function Portfolio() {
             {/* Back Face */}
             <div className="absolute w-full h-full bg-white text-black flex flex-col items-start justify-center rotate-y-180 backface-hidden p-4 shadow-lg rounded">
               <p className="text-sm">
-                - Working on this with the AI Safety Initiative at Georgia Tech. <br />
-                - Current Project: Multi-Agent Reinforcement Learning for Faithful Chain-of-Thought. <br />
+                - Currently working on this with the AI Safety Initiative at Georgia Tech. <br />
                 - Building a simple multi-agent RL environment where agents must coordinate using chain-of-thought–style reasoning, making their verbalized reasoning part of how they succeed on the task. <br />
                 - Introducing incentives where agents rely on or evaluate each other’s reasoning, so unfaithful or misleading chain-of-thought directly harms coordination and performance. <br />
-                - Testing whether faithfulness improves when scaling model size, number of agents, or model class, compared to standard outcome-based RL settings. <br />
-                - Analyzing whether agents converge to faithful, human-interpretable reasoning or instead develop alternative coordination strategies that bypass explicit chain-of-thought. <br />
+                - Testing whether faithfulness improves when scaling model size, number of agents, or model class. <br />
               </p>
             </div>
           </div>
