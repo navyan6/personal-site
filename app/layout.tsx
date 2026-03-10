@@ -1,15 +1,14 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import Link from "next/link";
+import { Fraunces, DM_Sans } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const fraunces = Fraunces({
+  variable: "--font-fraunces",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const dmSans = DM_Sans({
+  variable: "--font-dm-sans",
   subsets: ["latin"],
 });
 
@@ -24,24 +23,24 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${fraunces.variable} ${dmSans.variable} font-sans antialiased bg-white text-gray-800`}
       >
-        <header className="bg-gray-800 text-white p-4 relative z-50">
-          <nav className="flex justify-center gap-8">
-            <Link href="/" className="hover:underline">
+        <header className="bg-white/90 backdrop-blur border-b border-coral/30 sticky top-0 z-50">
+          <nav className="flex justify-center gap-10 p-4 font-heading">
+            <a href="/#hero" className="text-coral hover:text-sage font-medium transition-colors">
               Home
-            </Link>
-            <Link href="/portfolio" className="hover:underline">
-              Portfolio
-            </Link>
-            <Link href="/blog" className="hover:underline">
+            </a>
+            <a href="/#projects" className="text-coral hover:text-sage font-medium transition-colors">
+              Projects
+            </a>
+            <a href="/#blog" className="text-coral hover:text-sage font-medium transition-colors">
               Blog
-            </Link>
+            </a>
           </nav>
         </header>
-        <main className="p-8">{children}</main>
+        <main className="relative z-10">{children}</main>
       </body>
     </html>
   );
